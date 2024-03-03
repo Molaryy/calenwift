@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1005CC7F2B95411C00A76FBB /* calenwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC7E2B95411C00A76FBB /* calenwiftApp.swift */; };
+		1005CC812B95411C00A76FBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC802B95411C00A76FBB /* ContentView.swift */; };
+		1005CC832B95411D00A76FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1005CC822B95411D00A76FBB /* Assets.xcassets */; };
+		1005CC862B95411D00A76FBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1005CC852B95411D00A76FBB /* Preview Assets.xcassets */; };
+		1005CC882B95411D00A76FBB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC872B95411D00A76FBB /* Persistence.swift */; };
+		1005CC8B2B95411D00A76FBB /* calenwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC892B95411D00A76FBB /* calenwift.xcdatamodeld */; };
+		1005CC962B95411D00A76FBB /* calenwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC952B95411D00A76FBB /* calenwiftTests.swift */; };
+		1005CCA02B95411D00A76FBB /* calenwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CC9F2B95411D00A76FBB /* calenwiftUITests.swift */; };
+		1005CCA22B95411D00A76FBB /* calenwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CCA12B95411D00A76FBB /* calenwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1005CC922B95411D00A76FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1005CC732B95411C00A76FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1005CC7A2B95411C00A76FBB;
+			remoteInfo = calenwift;
+		};
+		1005CC9C2B95411D00A76FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1005CC732B95411C00A76FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1005CC7A2B95411C00A76FBB;
+			remoteInfo = calenwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1005CC7B2B95411C00A76FBB /* calenwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calenwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1005CC7E2B95411C00A76FBB /* calenwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenwiftApp.swift; sourceTree = "<group>"; };
+		1005CC802B95411C00A76FBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1005CC822B95411D00A76FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1005CC852B95411D00A76FBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1005CC872B95411D00A76FBB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1005CC8A2B95411D00A76FBB /* calenwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calenwift.xcdatamodel; sourceTree = "<group>"; };
+		1005CC8C2B95411D00A76FBB /* calenwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = calenwift.entitlements; sourceTree = "<group>"; };
+		1005CC912B95411D00A76FBB /* calenwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1005CC952B95411D00A76FBB /* calenwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenwiftTests.swift; sourceTree = "<group>"; };
+		1005CC9B2B95411D00A76FBB /* calenwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1005CC9F2B95411D00A76FBB /* calenwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenwiftUITests.swift; sourceTree = "<group>"; };
+		1005CCA12B95411D00A76FBB /* calenwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1005CC782B95411C00A76FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC8E2B95411D00A76FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC982B95411D00A76FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1005CC722B95411C00A76FBB = {
+			isa = PBXGroup;
+			children = (
+				1005CC7D2B95411C00A76FBB /* calenwift */,
+				1005CC942B95411D00A76FBB /* calenwiftTests */,
+				1005CC9E2B95411D00A76FBB /* calenwiftUITests */,
+				1005CC7C2B95411C00A76FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1005CC7C2B95411C00A76FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1005CC7B2B95411C00A76FBB /* calenwift.app */,
+				1005CC912B95411D00A76FBB /* calenwiftTests.xctest */,
+				1005CC9B2B95411D00A76FBB /* calenwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1005CC7D2B95411C00A76FBB /* calenwift */ = {
+			isa = PBXGroup;
+			children = (
+				1005CC7E2B95411C00A76FBB /* calenwiftApp.swift */,
+				1005CC802B95411C00A76FBB /* ContentView.swift */,
+				1005CC822B95411D00A76FBB /* Assets.xcassets */,
+				1005CC872B95411D00A76FBB /* Persistence.swift */,
+				1005CC8C2B95411D00A76FBB /* calenwift.entitlements */,
+				1005CC892B95411D00A76FBB /* calenwift.xcdatamodeld */,
+				1005CC842B95411D00A76FBB /* Preview Content */,
+			);
+			path = calenwift;
+			sourceTree = "<group>";
+		};
+		1005CC842B95411D00A76FBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1005CC852B95411D00A76FBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1005CC942B95411D00A76FBB /* calenwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1005CC952B95411D00A76FBB /* calenwiftTests.swift */,
+			);
+			path = calenwiftTests;
+			sourceTree = "<group>";
+		};
+		1005CC9E2B95411D00A76FBB /* calenwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1005CC9F2B95411D00A76FBB /* calenwiftUITests.swift */,
+				1005CCA12B95411D00A76FBB /* calenwiftUITestsLaunchTests.swift */,
+			);
+			path = calenwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1005CC7A2B95411C00A76FBB /* calenwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1005CCA52B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwift" */;
+			buildPhases = (
+				1005CC772B95411C00A76FBB /* Sources */,
+				1005CC782B95411C00A76FBB /* Frameworks */,
+				1005CC792B95411C00A76FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calenwift;
+			productName = calenwift;
+			productReference = 1005CC7B2B95411C00A76FBB /* calenwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1005CC902B95411D00A76FBB /* calenwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1005CCA82B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwiftTests" */;
+			buildPhases = (
+				1005CC8D2B95411D00A76FBB /* Sources */,
+				1005CC8E2B95411D00A76FBB /* Frameworks */,
+				1005CC8F2B95411D00A76FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1005CC932B95411D00A76FBB /* PBXTargetDependency */,
+			);
+			name = calenwiftTests;
+			productName = calenwiftTests;
+			productReference = 1005CC912B95411D00A76FBB /* calenwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1005CC9A2B95411D00A76FBB /* calenwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1005CCAB2B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwiftUITests" */;
+			buildPhases = (
+				1005CC972B95411D00A76FBB /* Sources */,
+				1005CC982B95411D00A76FBB /* Frameworks */,
+				1005CC992B95411D00A76FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1005CC9D2B95411D00A76FBB /* PBXTargetDependency */,
+			);
+			name = calenwiftUITests;
+			productName = calenwiftUITests;
+			productReference = 1005CC9B2B95411D00A76FBB /* calenwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1005CC732B95411C00A76FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1005CC7A2B95411C00A76FBB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1005CC902B95411D00A76FBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1005CC7A2B95411C00A76FBB;
+					};
+					1005CC9A2B95411D00A76FBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1005CC7A2B95411C00A76FBB;
+					};
+				};
+			};
+			buildConfigurationList = 1005CC762B95411C00A76FBB /* Build configuration list for PBXProject "calenwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1005CC722B95411C00A76FBB;
+			productRefGroup = 1005CC7C2B95411C00A76FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1005CC7A2B95411C00A76FBB /* calenwift */,
+				1005CC902B95411D00A76FBB /* calenwiftTests */,
+				1005CC9A2B95411D00A76FBB /* calenwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1005CC792B95411C00A76FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1005CC862B95411D00A76FBB /* Preview Assets.xcassets in Resources */,
+				1005CC832B95411D00A76FBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC8F2B95411D00A76FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC992B95411D00A76FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1005CC772B95411C00A76FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1005CC882B95411D00A76FBB /* Persistence.swift in Sources */,
+				1005CC812B95411C00A76FBB /* ContentView.swift in Sources */,
+				1005CC7F2B95411C00A76FBB /* calenwiftApp.swift in Sources */,
+				1005CC8B2B95411D00A76FBB /* calenwift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC8D2B95411D00A76FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1005CC962B95411D00A76FBB /* calenwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005CC972B95411D00A76FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1005CCA22B95411D00A76FBB /* calenwiftUITestsLaunchTests.swift in Sources */,
+				1005CCA02B95411D00A76FBB /* calenwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1005CC932B95411D00A76FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1005CC7A2B95411C00A76FBB /* calenwift */;
+			targetProxy = 1005CC922B95411D00A76FBB /* PBXContainerItemProxy */;
+		};
+		1005CC9D2B95411D00A76FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1005CC7A2B95411C00A76FBB /* calenwift */;
+			targetProxy = 1005CC9C2B95411D00A76FBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1005CCA32B95411D00A76FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1005CCA42B95411D00A76FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1005CCA62B95411D00A76FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = calenwift/calenwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calenwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1005CCA72B95411D00A76FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = calenwift/calenwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calenwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1005CCA92B95411D00A76FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calenwift";
+			};
+			name = Debug;
+		};
+		1005CCAA2B95411D00A76FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calenwift";
+			};
+			name = Release;
+		};
+		1005CCAC2B95411D00A76FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = calenwift;
+			};
+			name = Debug;
+		};
+		1005CCAD2B95411D00A76FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mohammed.calenwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = calenwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1005CC762B95411C00A76FBB /* Build configuration list for PBXProject "calenwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1005CCA32B95411D00A76FBB /* Debug */,
+				1005CCA42B95411D00A76FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1005CCA52B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1005CCA62B95411D00A76FBB /* Debug */,
+				1005CCA72B95411D00A76FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1005CCA82B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1005CCA92B95411D00A76FBB /* Debug */,
+				1005CCAA2B95411D00A76FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1005CCAB2B95411D00A76FBB /* Build configuration list for PBXNativeTarget "calenwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1005CCAC2B95411D00A76FBB /* Debug */,
+				1005CCAD2B95411D00A76FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1005CC892B95411D00A76FBB /* calenwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1005CC8A2B95411D00A76FBB /* calenwift.xcdatamodel */,
+			);
+			currentVersion = 1005CC8A2B95411D00A76FBB /* calenwift.xcdatamodel */;
+			path = calenwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1005CC732B95411C00A76FBB /* Project object */;
+}
